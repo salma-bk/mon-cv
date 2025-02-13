@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Salma Bk</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome pour les icônes -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .cv-header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .cv-header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .cv-header p {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .section-title {
+            color: #2575fc;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            animation: slideInLeft 1s ease-in-out;
+        }
+        .section-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in-out;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .section-content ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .section-content ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .section-content ul li::before {
+            content: "•";
+            color: #2575fc;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        .section-content ul li strong {
+            color: #2575fc;
+        }
+        .footer {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #ffdd57;
+        }
+        .footer i {
+            margin-right: 5px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInLeft {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="cv-header">
+            <h1>Salma Bk</h1>
+            <p>Consultante Web | Webmaster & UI/UX Designer</p>
+            <p>Saint-Cloud (92210), Île-de-France | 06 50 03 64 75</p>
+            <!-- Bouton pour télécharger le CV en PDF -->
+            <a href="https://drive.google.com/uc?export=download&id=1KAR-CXc4uqggDWDeJAfwDanN0wP0FGNc" download="CV_Salma_Bk.pdf" class="btn btn-light mt-3">
+                <i class="fas fa-download"></i> Télécharger mon CV en PDF
+            </a>
+        </div>
+
+        <!-- Profil -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="section-title">Profil</h2>
+                <div class="section-content">
+                    <p>7 ans d'expérience en tant que Webmaster et UI/UX Designer. Passionnée par la création de sites web intuitifs et modernes, je recherche une nouvelle opportunité pour évoluer en tant que Product Owner Junior ou occuper un poste de Webmaster UI/UX Designer au sein d’une équipe dynamique, prête à relever des défis créatifs et techniques.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compétences -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="section-title">Compétences</h2>
+                <div class="section-content">
+                    <ul>
+                        <li><strong>Développement Web & Maintenance</strong>: WordPress (expert), Joomla, Drupal, optimisation des performances, débogage, mises à jour techniques.</li>
+                        <li><strong>Front-End & Back-End</strong>: HTML5, CSS3, JavaScript (ES6+), PHP, Python, Node.js, React.js, Vue.js, jQuery, SASS, Bootstrap, Tailwind CSS, MySQL, MongoDB.</li>
+                        <li><strong>SEO & Marketing Digital</strong>: Audit technique, optimisation on-page/off-page, Google Analytics, SEMrush, campagnes automatisées (Mailchimp, HubSpot, Salesforce).</li>
+                        <li><strong>UI/UX Design</strong>: Figma, Sketch, Adobe XD, tests utilisateurs, Design System, Photoshop, Illustrator, InDesign.</li>
+                        <li><strong>Gestion de Projet</strong>: Agile, Scrum, Kanban, Jira, Trello, Asana, Git, GitHub, GitLab.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Expériences Professionnelles -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="section-title">Expériences Professionnelles</h2>
+                <div class="section-content">
+                    <h4>Consultante Web & Webmaster & UI/UX Designer | Acteurs Publics (2022 - 2024)</h4>
+                    <ul>
+                        <li>Gestion et maintenance du site web : Administration et optimisation technique d’un site WordPress.</li>
+                        <li>Stratégie SEO : Mise en place et suivi de stratégies pour améliorer le référencement naturel.</li>
+                        <li>Optimisation UX/UI : Conception d’interfaces intuitives et engageantes.</li>
+                        <li>Création de maquettes et intégration : Design et intégration de landing pages, emails et newsletters.</li>
+                        <li>Programmation de campagnes : Planification et suivi de campagnes digitales.</li>
+                        <li>Optimisation de contenu web : Audit et amélioration du contenu pour renforcer l’engagement.</li>
+                    </ul>
+
+                    <h4>Consultante Web & Webmaster & UI/UX Designer | Agora Publications (2019 - 2022)</h4>
+                    <ul>
+                        <li>Développement et mise à jour de sites WordPress : Maintenance, personnalisation de thèmes et plugins.</li>
+                        <li>Optimisation SEO : Stratégies on-page/off-page pour améliorer la visibilité.</li>
+                        <li>Amélioration UX : Conception d’interfaces intuitives et ergonomiques.</li>
+                        <li>Création de maquettes et prototypes : Design d’interfaces modernes et responsives.</li>
+                        <li>Gestion de contenu : Rédaction, optimisation et mise à jour régulière de contenus web.</li>
+                        <li>Email marketing : Campagnes personnalisées via Iris et Blueshift.</li>
+                        <li>Création de landing pages : Design et intégration de pages optimisées.</li>
+                        <li>Collaboration d'équipe : Alignement des projets avec les objectifs stratégiques.</li>
+                    </ul>
+
+                    <h4>Consultante Web & Webmaster | HCFDC (2017 - 2019)</h4>
+                    <ul>
+                        <li>Maintenance et gestion de site web : Administration, optimisation de sites WordPress et refonte de la charte graphique.</li>
+                        <li>Projet d’application de formation : Prise de vue, montage vidéo (Adobe Premiere Pro), intégration multimédia.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formation -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="section-title">Formation</h2>
+                <div class="section-content">
+                    <ul>
+                        <li><strong>Développeur JavaScript React</strong> - Greta Suresnes (2024)</li>
+                        <li><strong>Master Ingénierie des Médias</strong> - Ingemedia, Toulon (2017)</li>
+                        <li><strong>Licence Information & Communication</strong> - Ingemedia, Toulon (2016)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Langues -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="section-title">Langues</h2>
+                <div class="section-content">
+                    <ul>
+                        <li>Anglais : C1 - Courant</li>
+                        <li>Espagnol : A2 - Niveau élémentaire avancé</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Salma Bk | 
+            <a href="https://www.linkedin.com/in/salmabk-consultante-web/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a> | 
+            <a href="https://salma-bk-2024.web.app/" target="_blank"><i class="fas fa-briefcase"></i>Portfolio</a> | 
+            <a href="mailto:salma.bk.work@gmail.com"><i class="fas fa-envelope"></i>Contact</a>
+        </p>
+    </footer>
+</body>
+</html>
